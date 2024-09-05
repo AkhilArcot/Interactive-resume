@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#personal-info h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00796b;
+}
+
+#personal-info p a {
+    text-decoration: none;
+    color: #00796b;
+    transition: color 0.3s ease;
+}
+
+#personal-info p a:hover {
+    color: #004d40;
+}
+
+section {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Section Specific Styles */
+#education h2 {
+    background-color: #4caf50; /* Green for Education */
+    color: #ffffff;
+}
+
+#summary h2 {
+    background-color: #2196f3; /* Blue for Summary */
+    color: #ffffff;
+}
+
+#leadership h2 {
+    background-color: #ff9800; /* Orange for Leadership */
+    color: #ffffff;
+}
+
+#volunteer h2 {
+    background-color: #f44336; /* Red for Volunteer */
+    color: #ffffff;
+}
+
+#skills h2 {
+    background-color: #9c27b0; /* Purple for Skills */
+    color: #ffffff;
+}
+
+#github h2 {
+    background-color: #607d8b; /* Grey for GitHub */
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Menu Styles */
+#menu-button {
+    padding: 10px;
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#side-menu {
+    position: fixed;
+    left: -250px;
+    top: 50px;
+    width: 200px;
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease;
+    z-index: 999;
+}
+
+#side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#side-menu ul li {
+    margin-bottom: 10px;
+}
+
+#side-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#side-menu ul li a:hover {
+    text-decoration: underline;
+}
